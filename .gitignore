@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional npm cache folder
+.npm/
+
+# Production
+dist/
+build/
+out/
+
+# Next / Nuxt / Parcel / Vite caches
+.next/
+.nuxt/
+.parcel-cache/
+.vite/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env files
+.env
+.env.*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+.cache/
+eslintcache
+*.tgz

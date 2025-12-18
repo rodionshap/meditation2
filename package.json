@@ -1,0 +1,22 @@
+{
+  "name": "meditation2",
+  "version": "1.0.0",
+  "description": "meditation timer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodionshap/meditation2.git"
+  },
+  "author": "Rodion Shap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodionshap/meditation2/issues"
+  },
+  "homepage": "https://github.com/rodionshap/meditation2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

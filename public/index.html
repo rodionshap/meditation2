@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Meditation Timer</title>
+		<style>
+			body {
+				font-family: Segoe UI, Arial;
+				padding: 24px;
+				background: #f7f9fc;
+				color: #111;
+			}
+			.controls {
+				display: flex;
+				gap: 8px;
+				align-items: center;
+				margin-bottom: 12px;
+			}
+			button {
+				padding: 10px 14px;
+				font-size: 16px;
+			}
+			input[type='number'] {
+				width: 80px;
+				padding: 8px;
+				font-size: 16px;
+			}
+			#display {
+				font-size: 28px;
+				margin-top: 12px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Meditation Timer</h1>
+		<div class="controls">
+			<button id="btn15">15 Minuten</button>
+			<button id="btn30">30 Minuten</button>
+			<input id="customMinutes" type="number" min="1" placeholder="Minuten" />
+			<button id="btnCustom">Start Custom</button>
+			<button id="btnCancel">Abbrechen</button>
+		</div>
+
+		<div id="display">Bereit</div>
+
+		<!-- User-provided audio files (place in public/audio/) -->
+		<audio id="startAudio" src="/audio/start.mp3" preload="auto"></audio>
+		<audio id="warnAudio" src="/audio/near_end.mp3" preload="auto"></audio>
+
+		<script src="/script.js"></script>
+	</body>
+</html>
