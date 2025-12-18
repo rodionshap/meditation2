@@ -40,7 +40,9 @@ function updateDisplay() {
 	const remaining = Math.max(0, endTime - Date.now());
 	const mins = Math.floor(remaining / 60000);
 	const secs = Math.floor((remaining % 60000) / 1000);
-	display.textContent = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+	display.textContent = `${String(mins).padStart(2, '0')}:${String(
+		secs
+	).padStart(2, '0')}`;
 }
 
 function stopTimer() {
